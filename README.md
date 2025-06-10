@@ -2,15 +2,17 @@
 
 2025春 北航AI学习框架课程大作业
 
-`config/`, `/src`, `train.py` 拷贝自原项目。
+1. `config/`, `/src`, `train.py` 拷贝自原项目。
 
-`trainOnCloud.py` 是根据华为云环境进行修改后，真实进行训练的代码。
+2. `trainOnCloud.py` 是根据华为云环境进行修改后，真实进行训练的代码。
 
-`data_*/` 目录是华为云上训练后产生的数据文件。
+3. `data_*/` 目录是华为云上训练后产生的数据文件。
 
-`pngGenerator.py`, `report/` 是对数据分析后生成的图片记录，用于实验报告撰写。
+4. `pngGenerator.py`, `report/` 是对数据分析后生成的图片记录，用于实验报告撰写。
 
-`result_onMacCPU/` 由于MindSpore还没有支持macM4芯片训练，该目录是在mac M4(CPU)环境下进行部分训练产生的结果。
+5. `result_onMacCPU/` 由于MindSpore还没有支持macM4芯片训练，该目录是在mac M4(CPU)环境下进行部分训练产生的结果。
+
+我们的主要工作是：阅读1并理解复现工作流，学习华为云使用方法并对代码进行改造产生2，训练并分析结果，进行实验报告撰写。
 
 ---
 以下内容来自原项目
